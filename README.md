@@ -15,7 +15,7 @@ it's super easy to write things that you know will work right.
 
 `pipenv install cdhelm` to add cdhelm to your Pipfile.
 
-`from cdhelm import Helm, HelmChart` in your cdk8s file.
+`from cdhelm import Helm` in your cdk8s file.
 
 # Workflow
 

@@ -1,14 +1,11 @@
 #!/usr/bin/env python
-import re
-import sys
 import yaml
 import subprocess
 import os
 import stat
-import json
 from collections import Mapping
 from cdk8s import Include, Chart
-from constructs import Construct, Node  # importing base class for type hinting
+from constructs import Construct
 
 
 class HelmChart(Chart):
@@ -249,5 +246,5 @@ exit 1
         with open(script_file, "w") as f:
             f.write(script)
         st = os.stat(script_file)
-        os.chmod(script_file, st.st_mode | stat.S_IXUSR | stat.S_IXGRP | stat.S_IXOTH)
-
+        os.chmod(script_file, st.st_mode | stat.S_IXUSR |
+                 stat.S_IXGRP | stat.S_IXOTH)
