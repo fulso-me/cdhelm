@@ -1,3 +1,8 @@
+<div align="center">
+<a class="badge" href="https://github.com/fulso-me/cdhelm"><img src="https://img.shields.io/badge/-Github-blue" alt="Github"></a>
+<a class="badge" href="https://pypi.org/project/cdhelm/"><img src="https://img.shields.io/badge/-PyPI-blue" alt="PyPI"></a>
+</div>
+
 # Why
 
 I still have two fundamental problems with using helm now that tiller is gone.
